@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Shift+Alt+A COMMENTS -->
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;800&family=Hammersmith+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Proyecto de Taller</title>
+</head>
+<body>
+    <header class="imagenContenedor">
+        <div class="pintar">
+            <nav class="contenedor">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="barsdeco icon icon-tabler icon-tabler-menu-2" width="40" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M4 6l16 0" />
+                        <path d="M4 12l16 0" />
+                        <path d="M4 18l16 0" />
+                      </svg>
+
+                    <a class="categoria">Bleach</a>
+                    <a class="categoria">PGR</a>
+                </div>
+                <picture>
+                    <source srcset="build/img/BleachLogo.webp" type="image/webp">
+                    <img src="build/img/BleachLogo.png" alt="LOGO" width="125px">
+                </picture>
+
+                <div>
+                    <form id="searchForm" class="form">
+                        <input id="searchBox" class="input" type="text" placeholder="Search.." name="search">
+                        <button class="searchButton" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>       
+                    </form>        
+                </div>
+                
+            </nav>
+        </div>
+    </header>
+    <main class="contenedorMain">
+        <h2 class="centrar h2">Squads</h2>
+        <div class="contenedorMarcas">
+            <img class="marcas1" src="build/img/1stD.svg" alt="Icono de marca">
+            <img class="marcas" src="build/img/2ndD.svg" alt="Icono de marca">
+            <img class="marcas" src="build/img/3rdD.svg" alt="Icono de marca">
+            <img class="marcas4" src="build/img/4thD.svg" alt="Icono de marca">
+            <img class="marcas5" src="build/img/5thD.svg" alt="Icono de marca">
+            <img class="marcas6" src="build/img/6thD.svg" alt="Icono de marca">
+            <img class="marcas6" src="build/img/7thD.svg" alt="Icono de marca">
+            <img class="marcas8" src="build/img/8thD.svg" alt="Icono de marca">
+            <img class="marcas9" src="build/img/9thD.svg" alt="Icono de marca">
+            <img class="marcas10" src="build/img/10thD.svg" alt="Icono de marca">
+            <img class="marcas11" src="build/img/11thD.svg" alt="Icono de marca">
+            <img class="marcas12" src="build/img/12thD.svg" alt="Icono de marca">
+            <img class="marcas13" src="build/img/13thD.svg" alt="Icono de marca">
+        </div>
+
+        <h2 class="centrar h2" style="margin-top: 50px;">Characters</h2>
+
+        <!-- Start of the images -->
+        <div id="searchResult" class="grid">
+
+            <!-- WIDE PICTURES -->
+            <div class="imagenMuestra"></div>
+            <div class="imagenMuestra"></div>
+            <div class="imagenMuestra"></div>
+            <div class="imagenMuestra"></div>
+
+            <!-- CHARACTER PICTURES -->
+            <div class="producto">
+                <div class="hiddenEfecto">   
+                    <picture>
+                        <source srcset="build/img/21.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid" width="500px" src="build/img/21.jpg" alt="Imagen de Rukia">
+                    </picture>
+                </div>
+                <p class="name">Rukia</p>
+                <p class="apellido">Kuchiki</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/22.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid" width="500px" src="build/img/22.jpg" alt="Imagen de Orihime">
+                    </picture>
+                </div>
+                <p class="name">Orihime</p>
+                <p class="apellido">Inoue</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/123.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid orientacion"  src="build/img/123.jpg" alt="Imagen de Ichigo">
+                    </picture>
+                </div>
+                <p class="name">Ichigo</p>
+                <p class="apellido">Kurosaki</p>
+            </div>
+
+             <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/122.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid" width="500px" src="build/img/122.jpg" alt="Imagen de Bruno">
+                    </picture>
+                </div>
+                <p class="name">Bruno</p>
+                <p class="apellido">Bangnyfe</p>
+            </div>
+
+             <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/158.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/158.jpg" alt="Imagen de Ninny">
+                    </picture>
+                </div>
+                <p class="name">Ninny</p>
+                <p class="apellido">Spangcole</p>
+            </div>
+
+             <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/297.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/297.jpg" alt="Imagen de Noel">
+                    </picture>
+                </div>
+                <p class="name">Noel</p>
+                <p class="apellido">Niihashi</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/343.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/343.jpg" alt="Imagen de Oetsu">
+                    </picture>
+                </div>
+                <p class="name">Oetsu</p>
+                <p class="apellido">Nimaiya</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/345.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/345.jpg" alt="Imagen de Tenjiro">
+                    </picture>
+                </div>
+                <p class="name">Tenjiro</p>
+                <p class="apellido">Kirinji</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/346.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/346.jpg" alt="Imagen de Kirio">
+                    </picture>
+                </div>
+                <p class="name">Kirio</p>
+                <p class="apellido">Hikifune</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/370.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/370.jpg" alt="Imagen de Ichibei">
+                    </picture>
+                </div>
+                <p class="name">Ichibei </p>
+                <p class="apellido">Hyosube</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/371.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/371.jpg" alt="Imagen de Senjomaru">
+                    </picture>
+                </div>
+                <p class="name">Senjumaru</p>
+                <p class="apellido">Shutara</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/362.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid" width="500px" src="build/img/362.jpg" alt="Imagen de Ichigo">
+                    </picture>
+                </div>
+                <p class="name">Ichigo</p>
+                <p class="apellido">Kurosaki</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/288.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid orientacion" width="500px" src="build/img/288.jpg" alt="Imagen de Yamamoto">
+                    </picture>
+                </div>
+                <p class="name">Shigekuni</p>
+                <p class="apellido">Yamamoto Genryūsai</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/305.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid" width="500px" src="build/img/305.jpg" alt="Imagen de Yachiru">
+                    </picture>
+                </div>
+                <p class="name">Yachiru</p>
+                <p class="apellido">Unohana</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/356.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid" width="500px" src="build/img/356.jpg" alt="Imagen de Kensei">
+                    </picture>
+                </div>
+                <p class="name">Kensei</p>
+                <p class="apellido">Muguruma</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/357.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid" width="500px" src="build/img/357.jpg" alt="Imagen de Rose">
+                    </picture>
+                </div>
+                <p class="name">Rojuro</p>
+                <p class="apellido">Otoribashi</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/365.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid" width="500px" src="build/img/365.jpg" alt="Imagen de Komamura">
+                    </picture>
+                </div>
+                <p class="name">Sajin</p>
+                <p class="apellido">Komamura</p>
+            </div>
+
+             <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/382.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid" width="500px" src="build/img/382.jpg" alt="Imagen de Jushiro">
+                    </picture>
+                </div>
+                <p class="name">Jushiro</p>
+                <p class="apellido">Ukitake</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/353.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid" width="500px" src="build/img/353.jpg" alt="Imagen de Toshiro">
+                    </picture>
+                </div>
+                <p class="name">Toshiro</p>
+                <p class="apellido">Hitsugaya</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/289.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid orientacion" width="500px" src="build/img/289.jpg" alt="Imagen de Sasakibe">
+                    </picture>
+                </div>
+                <p class="name">Chojiro</p>
+                <p class="apellido">Sasakibe</p>
+            </div>     
+           
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/203.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid" width="500px" src="build/img/203.jpg" alt="Imagen de Yuyu">
+                    </picture>
+                </div>
+                <p class="name">Yuyu</p>
+                <p class="apellido">Yayahara</p>
+            </div>
+
+         
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/355.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/355.jpg" alt="Imagen de Yachiru">
+                    </picture>
+                </div>
+                <p class="name">Yachiru</p>
+                <p class="apellido">Kusajishi</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/234.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/234.jpg" alt="Imagen de Riku">
+                    </picture>
+                </div>
+                <p class="name">Riku</p>
+                <p class="apellido">Togakushi</p>
+            </div>
+            
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/235.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/235.jpg" alt="Imagen de Taketsuna">
+                    </picture>
+                </div>
+                <p class="name">Taketsuna</p>
+                <p class="apellido">Gori</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/236.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/236.jpg" alt="Imagen de Asuka">
+                    </picture>
+                </div>
+                <p class="name">Asuka</p>
+                <p class="apellido">Katakura</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/238.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/238.jpg" alt="Imagen de Hidetomo">
+                    </picture>
+                </div>
+                <p class="name">Hidetomo</p>
+                <p class="apellido">Kajomaru</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/364.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/364.jpg" alt="Imagen de Rangiku">
+                    </picture>
+                </div>
+                <p class="name">Rangiku</p>
+                <p class="apellido">Matsumoto</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/381.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/381.jpg" alt="Imagen de Renji">
+                    </picture>
+                </div>
+                <p class="name">Renji</p>
+                <p class="apellido">Abarai</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/376.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/376.jpg" alt="Imagen de Nemu">
+                    </picture>
+                </div>
+                <p class="name">Nemu</p>
+                <p class="apellido">Kurotsuchi</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/378.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/378.jpg" alt="Imagen de Hisagi">
+                    </picture>
+                </div>
+                <p class="name">Shuhei</p>
+                <p class="apellido">Hisagi</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/379.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/379.jpg" alt="Imagen de ">
+                    </picture>
+                </div>
+                <p class="name">Marechiyo</p>
+                <p class="apellido">Omaeda</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/380.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/380.jpg" alt="Imagen de ">
+                    </picture>
+                </div>
+                <p class="name">Isane & Kiyone</p>
+                <p class="apellido">Kotetsu</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/232.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/232.jpg" alt="Imagen de Asguiaro">
+                    </picture>
+                </div>
+                <p class="name">Asguiaro</p>
+                <p class="apellido">Ebern</p>
+            </div>
+            
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/349.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid orientacion"  src="build/img/349.jpg" alt="Imagen de Yuyu">
+                    </picture>
+                </div>
+                <p class="name">Candice</p>
+                <p class="apellido">Catnnip</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/348.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/348.jpg" alt="Imagen de Meninas">
+                    </picture>
+                </div>
+                <p class="name">Meninas</p>
+                <p class="apellido">McAllon</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/366.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/366.jpg" alt="Imagen de Bambietta">
+                    </picture>
+                </div>
+                <p class="name">Bambietta</p>
+                <p class="apellido">Basterbine</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/233.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid"  src="build/img/233.jpg" alt="Imagen de Ludaas">
+                    </picture>
+                </div>
+                <p class="name">Ludaas</p>
+                <p class="apellido">Friegen</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/360.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid orientacion"  src="build/img/360.jpg" alt="Imagen de Yuyu">
+                    </picture>
+                </div>
+                <p class="name">BG9</p>
+                <p class="apellido"></p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/347.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/347.jpg" alt="Imagen de Nanana">
+                    </picture>
+                </div>
+                <p class="name">Nanana</p>
+                <p class="apellido">Najahkoop</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/237.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/237.jpg" alt="Imagen de Quilge">
+                    </picture>
+                </div>
+                <p class="name">Quilge</p>
+                <p class="apellido">Opie</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/239.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/239.jpg" alt="Imagen de Driscoll">
+                    </picture>
+                </div>
+                <p class="name">Driscoll</p>
+                <p class="apellido">Berci</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/240.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/240.jpg" alt="Imagen de Berenice">
+                    </picture>
+                </div>
+                <p class="name">Berenice</p>
+                <p class="apellido">Gabrielli</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/241.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/241.jpg" alt="Imagen de Jerome">
+                    </picture>
+                </div>
+                <p class="name">Jerome</p>
+                <p class="apellido">Guizbatt</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/242.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/242.jpg" alt="Imagen de Royd y Loyd">
+                    </picture>
+                </div>
+                <p class="name">Royd y Loyd</p>
+                <p class="apellido">Lloyd</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/322.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/322.jpg" alt="Imagen de Kanae">
+                    </picture>
+                </div>
+                <p class="name">Kanae</p>
+                <p class="apellido">Katagiri</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/323.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/323.jpg" alt="Imagen de Masaki">
+                    </picture>
+                </div>
+                <p class="name">Masaki</p>
+                <p class="apellido">Kurosaki</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/350.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/350.jpg" alt="Imagen de Robert">
+                    </picture>
+                </div>
+                <p class="name">Robert</p>
+                <p class="apellido">Accutrone</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/351.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/351.jpg" alt="Imagen de Nianzol">
+                    </picture>
+                </div>
+                <p class="name">Nianzol</p>
+                <p class="apellido">Weizol</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/367.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/367.jpg" alt="Imagen de Cang">
+                    </picture>
+                </div>
+                <p class="name">Cang</p>
+                <p class="apellido">Du</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/354.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/354.jpg" alt="Imagen de Gremmy">
+                    </picture>
+                </div>
+                <p class="name">Gremmy</p>
+                <p class="apellido">Thoumeaux</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/358.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/358.jpg" alt="Imagen de Gwenael">
+                    </picture>
+                </div>
+                <p class="name">Gwenael</p>
+                <p class="apellido">Lee</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/359.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/359.jpg" alt="Imagen de As">
+                    </picture>
+                </div>
+                <p class="name">As</p>
+                <p class="apellido">Nodt</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/361.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/361.jpg" alt="Imagen de Mask">
+                    </picture>
+                </div>
+                <p class="name">Mask (James)</p>
+                <p class="apellido">De Masculine</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/374.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/374.jpg" alt="Imagen de Bazz-B">
+                    </picture>
+                </div>
+                <p class="name">Bazzard (Bazz-B)</p>
+                <p class="apellido">Black</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/373.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/373.jpg" alt="Imagen de Liltotto">
+                    </picture>
+                </div>
+                <p class="name">Liltotto</p>
+                <p class="apellido">Lamperd</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/372.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/372.jpg" alt="Imagen de Giselle">
+                    </picture>
+                </div>
+                <p class="name">Giselle</p>
+                <p class="apellido">Gewelle</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/375.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/375.jpg" alt="Imagen de Lille">
+                    </picture>
+                </div>
+                <p class="name">Lille</p>
+                <p class="apellido">Barro</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/377.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/377.jpg" alt="Imagen de Pernida">
+                    </picture>
+                </div>
+                <p class="name">Pernida</p>
+                <p class="apellido">Parnkgjas</p>
+            </div>
+
+            <div class="producto">
+                <div class="hiddenEfecto">
+                    <picture>
+                        <source srcset="build/img/352.webp" type="image/webp">
+                        <img loading="lazy" class="imagenGrid "  src="build/img/352.jpg" alt="Imagen de Pepe">
+                    </picture>
+                </div>
+                <p class="name">Pepe</p>
+                <p class="apellido">Waccabrada</p>
+            </div>
+           
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__elemento">
+
+            <picture>
+                <source srcset="build/img/BleachLogo.avf" type="image/avf">
+                <source srcset="build/img/BleachLogo.webp" type="image/webp">
+                <img class="footer__imagen" src="build/img/BleachLogo.png" alt="LOGO" width="125px">
+            </picture>
+
+            <a class="footer__anclas" href="">Personajes de Tite Kubo (Bleach)</a>
+            <a class="footer__anclas" href="">Pagina hecha por: Banda15</a>
+
+            <picture>
+               
+            </picture>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

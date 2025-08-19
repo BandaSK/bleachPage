@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   width="206.70256"
+   height="134.35666"
+   sodipodi:docname="Gotei.svg">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 65 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="200 : 65 : 1"
+       inkscape:persp3d-origin="100 : 43.333333 : 1"
+       id="perspective8" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="1002"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="2.4455959"
+     inkscape:cx="79.528567"
+     inkscape:cy="66.522629"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <path
+     style="fill:#ffffff;fill-opacity:1;stroke:none"
+     d="M 1.6768873,69.5882 C 34.89148,91.177684 68.10608,112.76717 101.32067,134.35666 136.44796,111.52391 171.57526,88.691176 206.70255,65.858436 172.92899,43.905624 139.15544,21.952812 105.38188,0 70.254588,22.83274 35.127293,45.665482 0,68.498223 l 0.8384436,0.544988 0.8384437,0.544989 z"
+     id="rect2814" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:none"
+     d="M 105.38502,2.1799534 3.3537745,68.492453 101.32252,132.17995 203.35377,65.867453 105.38502,2.1799534 z m -20.968746,19.9999996 41.531246,0 47.40625,30.8125 0,26 -51.0625,33.187497 -41.531246,0 -47.40625,-30.812497 0,-26 51.0625,-33.1875 z"
+     id="rect2818" />
+</svg>
