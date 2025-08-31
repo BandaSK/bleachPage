@@ -1,0 +1,474 @@
+* {
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: Anton-Regular;
+    src: url(/fonts/Anton/Anton-Regular.ttf);
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.barsdeco {
+    display: none;
+}
+
+.pintar a,
+i {
+    color: white;
+}
+
+.imagenContenedor {
+    background-image: url(/build/img/header9.png);
+    height: 60rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.searchButton {
+    background-color: transparent;
+    width: 28px;
+    padding: 0;
+    border: none;
+}
+
+.searchButton:hover {
+    scale: 1.3;
+    transition: ease-in-out .5s;
+}
+
+.searchButton:not(hover) {
+    transition: ease 1s;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    /* for Firefox? */
+}
+
+.input {
+    width: auto;
+    height: 25px;
+    font-size: large;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    outline: none;
+    margin-right: 5px;
+}
+
+.input:hover {
+    border: 3px solid rgb(255, 0, 191);
+    transition: ease .2s;
+}
+
+.pintar:hover {
+    background-color: black;
+    transition: ease 1s;
+}
+
+.pintar:not(:hover) {
+    transition: ease 1s;
+}
+
+.categoria {
+    font-size: x-large;
+    margin-right: 2rem;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    border-bottom: 2px solid transparent;
+}
+
+.fa-solid {
+    font-size: x-large;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+.categoria:hover {
+
+    border-color: rgb(255, 0, 191);
+    transition: ease .5s;
+
+}
+
+.pintar:hover a,
+.pintar:hover i {
+    cursor: pointer;
+}
+
+.centrar {
+    display: grid;
+    place-content: center;
+}
+
+.h2 {
+    font-size: calc(1rem + 5vw);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.contenedorMain {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.marcas {
+    width: 5%;
+}
+
+.marcas:hover {
+    scale: 1.3;
+    transition: ease-in-out .8s;
+    cursor: pointer;
+}
+
+.marcas:not(:hover) {
+    transition: ease-in-out .6s;
+
+}
+
+.marcas:nth-child(1) {
+    width: 6.5%;
+}
+
+.marcas:nth-child(4) {
+    width: 3.2%;
+}
+
+.marcas:nth-child(8) {
+    width: 4%;
+}
+
+.marcas:nth-child(9) {
+    width: 4.6%;
+}
+
+.marcas:nth-child(10) {
+    width: 4.1%;
+}
+
+.marcas:nth-child(11) {
+    width: 7.4%;
+}
+
+.marcas12:nth-child(12) {
+    width: 3.7%;
+}
+
+.marcas:nth-child(13) {
+    width: 6.9%;
+}
+
+
+.contenedorMarcas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    gap: 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
+
+.hiddenEfecto {
+    overflow: hidden;
+}
+
+.producto {
+    background-color: rgb(255, 0, 191);
+    padding: 1.5rem 1rem 5rem 1rem;
+}
+
+.producto:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgb(240, 100, 0);
+    /* padding: 1.5rem 1rem 5rem 1rem; */
+    transition: ease-in-out .7s;
+    cursor: pointer;
+}
+
+.producto:hover .imagenGrid {
+    scale: 1.1;
+    transition: ease-in-out .6s;
+}
+
+.producto:not(:hover),
+.imagenGrid:not(:hover) {
+    transition: ease-in-out .6s;
+}
+
+.imagenGrid {
+    width: 100%;
+}
+
+.name {
+    font-size: 5rem;
+    margin: 10px 0px 0px 0px;
+    color: white;
+    text-align: center;
+    font-family: 'Anton-Regular';
+}
+
+.apellido {
+    margin: 0;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    font-family: 'Anton-Regular';
+}
+
+.orientacion {
+    transform: scaleX(-1);
+}
+
+.imagenMuestra {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 1rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* FOR THE CHILDS YOU NEED TO COUNT ALL THE SIMILAR ETIQUETES IN THIS CASE DIV AND IS THE 7TH ONE */
+/* or MOVE IT TO BEGIN THE FIRST ONE AFTER ALL GRID COLUMN AND ROW MOVE THE IMAGE */
+.imagenMuestra:nth-child(1) {
+    grid-column: 1/4;
+    grid-row: 3/3;
+    background-image: url(/build/img/header7.jpg);
+    height: 665px;
+}
+
+.imagenMuestra:nth-child(2) {
+    grid-column: 1/3;
+    grid-row: 6/6;
+    background-image: url(/build/img/horizontal5.jpg);
+}
+
+.imagenMuestra:nth-child(3) {
+    grid-column: 2/4;
+    grid-row: 9/9;
+    background-image: url(/build/img/header6.jpg);
+}
+
+.imagenMuestra:nth-child(4) {
+    grid-column: 1/4;
+    grid-row: 14/15;
+    background-image: url(/build/img/header8.png);
+    height: 665px;
+}
+
+.footer {
+    position: relative;
+    background-color: black;
+    margin-top: 5rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__elemento,
+.footer__imagen {
+    display: flex;
+    align-items: center;
+}
+
+.footer__elemento,
+.footer__anclas {
+    text-decoration: none;
+    font-size: calc(.5rem + 1vw);
+    color: white;
+    gap: 3rem;
+    font-family: 'Dosis', sans-serif;
+}
+
+.imagenfooter {
+    position: absolute;
+    top: -65px;
+    left: 72%;
+    transform: translateX(-50%) rotate(7deg);
+    width: 125px;
+    z-index: 10;
+    filter: drop-shadow(0 0 5px rgb(100, 24, 24)) drop-shadow(0 0 20px rgb(98, 22, 22)) drop-shadow(0 0 30px rgb(39, 11, 52));
+
+
+}
+
+.imagenfooter:hover {
+    transform: translateX(-50%) rotate(7deg) scale(1.1);
+    width: 125px;
+    z-index: 10;
+    box-shadow: 0px 0px 55px 35px black;
+    filter: drop-shadow(0 0 5px rgb(100, 24, 24)) drop-shadow(0 0 20px rgb(98, 22, 22)) drop-shadow(0 0 30px rgb(39, 11, 52));
+}
+
+.imagenfooter:focus {
+    top: -350px;
+    left: 50%;
+    box-shadow: 0px 0px 90px 20000px rgb(100, 13, 13);
+    transform: rotate(0deg) scale(3.5);
+    transition: box-shadow 85s ease, transform 5s ease, top 5s ease, left 5s ease;
+}
+
+.imagenfooter:not(:focus) {
+    transition: box-shadow 4s ease-out, transform 2s ease, top 2s ease, left 2s ease;
+}
+
+.player {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 60px;
+    width: 280px;
+    background: #222;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    z-index: 9999;
+    cursor: grab;
+}
+
+.player h3 {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+.controls button {
+    background: #444;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.controls button:hover {
+    background: #666;
+}
+
+/* Botón para cerrar */
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: red;
+}
+
+@media(max-width:950px) {
+    .contenedorMain {
+        width: auto;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+
+    .imagenMuestra:nth-child(1) {
+        grid-column: 1/3;
+        grid-row: 4/4;
+        height: 425px;
+    }
+
+    .imagenMuestra:nth-child(2) {
+        grid-column: 1/3;
+        grid-row: 8/9;
+        height: 425px;
+    }
+
+    .imagenMuestra:nth-child(3) {
+        grid-column: 1/3;
+        grid-row: 13/14;
+        height: 425px;
+    }
+
+    .imagenMuestra:nth-child(4) {
+        grid-column: 1/3;
+        grid-row: 20/21;
+        height: 425px;
+    }
+
+    .footer__elemento {
+        flex-direction: column;
+
+    }
+
+    .imagenfooter {
+        margin: 0;
+    }
+
+    .producto:last-child {
+        display: none;
+    }
+
+    .contenedor>div {
+        display: none;
+    }
+
+    .contenedor picture {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .pintar:hover {
+        background-color: transparent;
+        transition: none;
+    }
+
+    .contenedorMarcas {
+        gap: .6rem;
+        margin-bottom: 1rem;
+    }
+
+    .marcas {
+        width: 5%;
+    }
+
+}

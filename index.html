@@ -10,24 +10,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Proyecto de Taller</title>
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Bleach Page</title>
 </head>
 <body>
+    <div class="player" id="playerBox">
+    <button class="close-btn" onclick="document.getElementById('playerBox').style.display='none'">×</button>
+     <h3 id="songTitle"></h3>
+  <div class="controls">
+    <button id="prev">⏮</button>
+    <button id="play">▶</button>
+    <button id="pause" style="display:none;">⏸</button>
+    <button id="next">⏭</button>
+  </div>
+  </div>
+
+
     <header class="imagenContenedor">
         <div class="pintar">
             <nav class="contenedor">
                 <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="barsdeco icon icon-tabler icon-tabler-menu-2" width="40" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" class="barsdeco icon icon-tabler icon-tabler-menu-2" width="40" height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <path d="M4 6l16 0" />
                         <path d="M4 12l16 0" />
                         <path d="M4 18l16 0" />
-                      </svg>
+                      </svg> -->
 
-                    <a class="categoria">Bleach</a>
-                    <a class="categoria">PGR</a>
+                    <a class="categoria" href="pgrPage.html">PGR</a>
+                    <a class="categoria" href="">SK</a>
+                    <a class="categoria" href="">DOA</a>
                 </div>
                 <picture>
                     <source srcset="build/img/BleachLogo.webp" type="image/webp">
@@ -47,19 +60,19 @@
     <main class="contenedorMain">
         <h2 class="centrar h2">Squads</h2>
         <div class="contenedorMarcas">
-            <img class="marcas1" src="build/img/1stD.svg" alt="Icono de marca">
-            <img class="marcas" src="build/img/2ndD.svg" alt="Icono de marca">
-            <img class="marcas" src="build/img/3rdD.svg" alt="Icono de marca">
-            <img class="marcas4" src="build/img/4thD.svg" alt="Icono de marca">
-            <img class="marcas5" src="build/img/5thD.svg" alt="Icono de marca">
-            <img class="marcas6" src="build/img/6thD.svg" alt="Icono de marca">
-            <img class="marcas6" src="build/img/7thD.svg" alt="Icono de marca">
-            <img class="marcas8" src="build/img/8thD.svg" alt="Icono de marca">
-            <img class="marcas9" src="build/img/9thD.svg" alt="Icono de marca">
-            <img class="marcas10" src="build/img/10thD.svg" alt="Icono de marca">
-            <img class="marcas11" src="build/img/11thD.svg" alt="Icono de marca">
-            <img class="marcas12" src="build/img/12thD.svg" alt="Icono de marca">
-            <img class="marcas13" src="build/img/13thD.svg" alt="Icono de marca">
+            <img class="marcas" src="build/img/1stD.svg" alt="Icono de marca" title="1st Division">
+            <img class="marcas" src="build/img/2ndD.svg" alt="Icono de marca" title="2nd Division">
+            <img class="marcas" src="build/img/3rdD.svg" alt="Icono de marca" title="3rd Division">
+            <img class="marcas" src="build/img/4thD.svg" alt="Icono de marca" title="4th Division">
+            <img class="marcas" src="build/img/5thD.svg" alt="Icono de marca" title="5th Division">
+            <img class="marcas" src="build/img/6thD.svg" alt="Icono de marca" title="6th Division">
+            <img class="marcas" src="build/img/7thD.svg" alt="Icono de marca" title="7th Division">
+            <img class="marcas" src="build/img/8thD.svg" alt="Icono de marca" title="8th Division">
+            <img class="marcas" src="build/img/9thD.svg" alt="Icono de marca" title="9th Division">
+            <img class="marcas" src="build/img/10thD.svg" alt="Icono de marca" title="10th Division">
+            <img class="marcas" src="build/img/11thD.svg" alt="Icono de marca" title="11th Division">
+            <img class="marcas" src="build/img/12thD.svg" alt="Icono de marca" title="12th Division">
+            <img class="marcas" src="build/img/13thD.svg" alt="Icono de marca" title="13th Division">
         </div>
 
         <h2 class="centrar h2" style="margin-top: 50px;">Characters</h2>
@@ -737,16 +750,15 @@
                 <img class="footer__imagen" src="build/img/BleachLogo.png" alt="LOGO" width="125px">
             </picture>
 
-            <a class="footer__anclas" href="">Personajes de Tite Kubo (Bleach)</a>
-            <a class="footer__anclas" href="">Pagina hecha por: Banda15</a>
-
-            <picture>
-               
-            </picture>
+            <a class="footer__anclas">Personajes de Tite Kubo</a>
+            <a class="footer__anclas">Pagina hecha por: 
+                <img class="imagenfooter" src="build/img/dontyouknow.png" tabindex="0" alt="Don't you know?">
+            </a>
+        
 
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>
